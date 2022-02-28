@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Tableau</title>
+</head>
+<body>
+  <header>Periodic Table</header>
+  
+  <div class="tableau" contenteditable="true">
+    <table class="haut">
+      <thead>
+        <th class="violet">
+          <h3>1</h3>
+          <h1>H</h1>
+          <p>Hydrogen</p>
+          <h3>1.008</h3>
+        </th>
+        <th ></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th class="bleu">
+          <h3>2</h3>
+        <h1>He</h1>
+        <p>Helium</p>
+        <h3>4.00260</h3>
+      </th>
+      </thead>
+      <tbody>
+      <tr>
+        <td class="vert">
+          <h3>3</h3>
+        <h1>Li</h1>
+        <p>Lithium</p>
+        <h3>6.940</h3>
+      </td>
+        <td class="vert-clair">
+          <h3>4</h3>
+        <h1>Be</h1>
+        <p>Beryllium</p>
+        <h3>9.01218</h3>
+      </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="jaune">
+          <h3>5</h3>
+          <h1>B</h1>
+          <p>Baron</p>
+          <h3>10.810</h3>
+        </td>
+        <td class="violet">
+          <h3>6</h3>
+          <h1>C</h1>
+          <p>Carbon</p>
+          <h3>12.011</h3>
+        </td>
+        <td class="violet">
+          <h3>7</h3>
+          <h1>N</h1>
+          <p>Nitrogen</p>
+        <h3>14.007</h3>
+      </td>
+        <td class="violet">
+          <h3>8</h3>
+        <h1>O</h1>
+        <p>Oxygen</p>
+        <h3>15.999</h3>
+      </td>
+        <td class="orange-clair">
+          <h3>9</h3>
+        <h1>F</h1>
+        <p>Fluorine</p>
+        <h3>18.99840</h3>
+      </td>
+        <td class="bleu">
+          <h3>10</h3>
+        <h1>Ne</h1>
+        <p>Neon</p>
+        <h3>20.1797</h3>
+      </td>
+      </tr>
+      <tr>
+        <td class="vert">
+          <h3>11</h3>
+          <h1>Na</h1>
+          <p>Sodium</p>
+          <h3>22.98977</h3>
+        </td>
+        <td class="vert-clair">
+          <h3>12</h3>
+          <h1>Mg</h1>
+          <p>Magnesium</p>
+          <h3>24.305</h3>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="orange">
+          <h3>13</h3>
+          <h1>Al</h1>
+          <p>Aluminum</p>
+          <h3>26.98154</h3>
+        </td>
+        <td class="jaune">
+          <h3>14</h3>
+          <h1>Si</h1>
+          <p>Silicon</p>
+          <h3>28.085</h3>
+        </td>
+        <td class="violet">
+          <h3>15</h3>
+          <h1>P</h1>
+          <p>Phosphorus</p>
+          <h3>30.97378</h3>
+        </td>
+        <td class="violet">
+          <h3>16</h3>
+          <h1>S</h1>
+          <p>Sulfur</p>
+          <h3>32.060</h3>
+        </td>
+        <td class="orange-clair">
+          <h3>17</h3>
+          <h1>Ci</h1>
+          <p>Chlorine</p>
+          <h3>35.450</h3>
+        </td>
+        <td class="bleu">
+          <h3>18</h3>
+          <h1>Ar</h1>
+          <p>Argon</p>
+          <h3>39.948</h3>
+        </td>
+      </tr>
+      <tr>
+        <td class="vert">
+          <h3>19</h3>
+          <h1>K</h1>
+          <p>Potassium</p>
+          <h3>39.0983</h3>
+        </td>
+        <td class="vert-clair">
+          <h3>20</h3>
+          <h1>Ca</h1>
+          <p>Calcium</p>
+          <h3>40.078</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>21</h3>
+          <h1>Sc</h1>
+          <p>Scandium</p>
+          <h3>44.95591</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>22</h3>
+          <h1>Ti</h1>
+          <p>Titanium</p>
+          <h3>47.867</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>23</h3>
+          <h1>V</h1>
+          <p>Vanadium</p>
+          <h3>50.9415</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>24</h3>
+          <h1>Cr</h1>
+          <p>Chromium</p>
+          <h3>51.9961</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>25</h3>
+          <h1>Mn</h1>
+          <p>Manganese</p>
+          <h3>54.93804</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>26</h3>
+          <h1>Fe</h1>
+          <p>Iron</p>
+          <h3>55.845</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>27</h3>
+          <h1>Co</h1>
+          <p>Cobalt</p>
+          <h3>58.93319</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>28</h3>
+          <h1>Ni</h1>
+          <p>Nickel</p>
+          <h3>58.6934</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>29</h3>
+          <h1>Cu</h1>
+          <p>Copper</p>
+          <h3>63.548</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>30</h3>
+          <h1>Zn</h1>
+          <p>Zinc</p>
+          <h3>65.38</h3>
+        </td>
+        <td class="orange">
+          <h3>31</h3>
+          <h1>Ga</h1>
+          <p>Gallium</p>
+          <h3>69.723</h3>
+        </td>
+        <td class="jaune">
+          <h3>32</h3>
+          <h1>Ge</h1>
+          <p>Germanium</p>
+          <h3>72.630</h3>
+        </td>
+        <td class="jaune">
+          <h3>33</h3>
+          <h1>As</h1>
+          <p>Arsenic</p>
+          <h3>74.92159</h3>
+        </td>
+        <td class="violet">
+          <h3>34</h3>
+          <h1>Se</h1>
+          <p>Selenium</p>
+          <h3>78.971</h3>
+        </td>
+        <td class="orange-clair">
+          <h3>35</h3>
+          <h1>Br</h1>
+          <p>Bromine</p>
+          <h3>79.904</h3>
+        </td>
+        <td class="bleu">
+          <h3>36</h3>
+          <h1>Kr</h1>
+          <p>Krypton</p>
+          <h3>83.798</h3>
+        </td>
+      </tr>
+      <tr>
+        <td class="vert">
+          <h3>37</h3>
+        <h1>Rb</h1>
+        <p>Rubidium</p>
+        <h3>85.4678</h3>
+      </td>
+        <td class="vert-clair">
+          <h3>38</h3>
+          <h1>Sr</h1>
+          <p>Strontium</p>
+          <h3>87.62</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>39</h3>
+          <h1>Y</h1>
+          <p>Yttrium</p>
+          <h3>88.90584</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>40</h3>
+          <h1>Zr</h1>
+          <p>Zirconium</p>
+          <h3>91.224</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>41</h3>
+          <h1>Nb</h1>
+          <p>Niobium</p>
+          <h3>92.90637</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>42</h3>
+          <h1>Mo</h1>
+          <p>Molybdenum</p>
+          <h3>95.95</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>43</h3>
+          <h1>Tc</h1>
+          <p>Technetium</p>
+          <h3>[97.90721]</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>44</h3>
+          <h1>Ru</h1>
+          <p>Ruthenium</p>
+          <h3>101.07</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>45</h3>
+          <h1>Rh</h1>
+          <p>Rhodium</p>
+          <h3>102.90550</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>46</h3>
+          <h1>Pd</h1>
+          <p>Palladium</p>
+          <h3>106.42</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>47</h3>
+          <h1>Ag</h1>
+          <p>Silver</p>
+          <h3>107.9682</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>48</h3>
+          <h1>Cd</h1>
+          <p>Cadmium</p>
+          <h3>112.414</h3>
+        </td>
+        <td class="orange">
+          <h3>49</h3>
+          <h1>In</h1>
+          <p>Indium</p>
+          <h3>114.818</h3>
+        </td>
+        <td class="orange">
+          <h3>50</h3>
+          <h1>Sn</h1>
+          <p>Tin</p>
+          <h3>118.710</h3>
+        </td>
+        <td class="jaune">
+          <h3>51</h3>
+          <h1>Sb</h1>
+          <p>Antimony</p>
+          <h3>121.760</h3>
+        </td>
+        <td class="jaune">
+          <h3>52</h3>
+          <h1>Te</h1>
+          <p>Tellurium</p>
+          <h3>127.60</h3>
+        </td>
+        <td class="orange-clair">
+          <h3>53</h3>
+          <h1>I</h1>
+          <p>Iodine</p>
+          <h3>128.90447</h3>
+        </td>
+        <td class="bleu">
+          <h3>54</h3>
+          <h1>Xe</h1>
+          <p>Xenon</p>
+          <h3>131.293</h3>
+        </td>
+      </tr>
+      <tr>
+        <td class="vert">
+          <h3>55</h3>
+          <h1>Cs</h1>
+          <p>Cesium</p>
+          <h3>132.90545</h3>
+        </td>
+        <td class="vert-clair">
+          <h3>56</h3>
+          <h1>Ba</h1>
+          <p>Barium</p>
+          <h3>137.327</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>71</h3>
+          <h1>Lu</h1>
+          <p>Lutetium</p>
+          <h3>174.9668</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>72</h3>
+          <h1>Hf</h1>
+          <p>Hafnium</p>
+          <h3>178.49</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>73</h3>
+          <h1>Ta</h1>
+          <p>Tantalum</p>
+          <h3>180.94788</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>74</h3>
+          <h1>W</h1>
+          <p>Tungsten</p>
+          <h3>183.84</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>75</h3>
+          <h1>Re</h1>
+          <p>Rhenium</p>
+          <h3>186.207</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>76</h3>
+          <h1>OS</h1>
+          <p>Osmium</p>
+          <h3>190.23</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>77</h3>
+          <h1>Ir</h1>
+          <p>Iridium</p>
+          <h3>192.217</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>78</h3>
+          <h1>Pt</h1>
+          <p>Platinum</p>
+          <h3>195.084</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>79</h3>
+          <h1>Au</h1>
+          <p>Gold</p>
+          <h3>198.96657</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>80</h3>
+          <h1>Hg</h1>
+          <p>Mercury</p>
+          <h3>200.592</h3>
+        </td>
+        <td class="orange">
+          <h3>81</h3>
+          <h1>Ti</h1>
+          <p>Thallium</p>
+          <h3>204.380</h3>
+        </td>
+        <td class="orange">
+          <h3>82</h3>
+          <h1>Pb</h1>
+          <p>Lead</p>
+          <h3>207.2</h3>
+        </td>
+        <td class="orange">
+          <h3>83</h3>
+          <h1>Bi</h1>
+          <p>Bismuth</p>
+          <h3>208.98040</h3>
+        </td>
+        <td class="jaune">
+          <h3>84</h3>
+          <h1>Po</h1>
+          <p>Polonium</p>
+          <h3>[209]</h3>
+        </td>
+        <td class="orange-clair">
+          <h3>85</h3>
+          <h1>At</h1>
+          <p>Astatine</p>
+          <h3>[210]</h3>
+        </td>
+        <td class="bleu">
+          <h3>86</h3>
+          <h1>Rn</h1>
+          <p>Radon</p>
+          <h3>[222]</h3>
+        </td>
+      </tr>
+      <tr>
+        <td class="vert">
+          <h3>87</h3>
+          <h1>Fr</h1>
+          <p>Francium</p>
+          <h3>[223]</h3>
+        </td>
+        <td class="vert-clair">
+          <h3>88</h3>
+          <h1>Ra</h1>
+          <p>Radium</p>
+          <h3>[226]</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>103</h3>
+          <h1>Lr</h1>
+          <p>Lawrencium</p>
+          <h3>[267]</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>104</h3>
+          <h1>Rf</h1>
+          <p>Rutherfordium</p>
+          <h3>[267]</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>105</h3>
+          <h1>Db</h1>
+          <p>Dubnium</p>
+          <h3>[268]</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>106</h3>
+          <h1>Sg</h1>
+          <p>Seaborgium</p>
+          <h3>[271]</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>107</h3>
+          <h1>Bh</h1>
+          <p>Bohrium</p>
+          <h3>[274]</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>108</h3>
+          <h1>Hs</h1>
+          <p>Hassium</p>
+          <h3>[269]</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>109</h3>
+          <h1>Mt</h1>
+          <p>Meitnerium</p>
+          <h3>[276]</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>110</h3>
+          <h1>Ds</h1>
+          <p>Damstadtium</p>
+          <h3>[281]</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>111</h3>
+          <h1>Rg</h1>
+          <p>Roentgenium</p>
+          <h3>[281]</h3>
+        </td>
+        <td class="orange-fort">
+          <h3>112</h3>
+          <h1>Cn</h1>
+          <p>Copemicium</p>
+          <h3>[285]</h3>
+        </td>
+        <td class="orange">
+          <h3>113</h3>
+          <h1>Nh</h1>
+          <p>Nihonium</p>
+          <h3>[286]</h3>
+        </td>
+        <td class="orange">
+          <h3>114</h3>
+          <h1>Fi</h1>
+          <p>Flerovium</p>
+          <h3>[289]</h3>
+        </td>
+        <td class="orange">
+          <h3>115</h3>
+          <h1>Mc</h1>
+          <p>Moscovium</p>
+          <h3>[288]</h3>
+        </td>
+        <td class="orange">
+          <h3>116</h3>
+          <h1>Lv</h1>
+          <p>Livemorium</p>
+          <h3>[293]</h3>
+        </td>
+        <td class="orange-clair">
+          <h3>117</h3>
+          <h1>Ts</h1>
+          <p>Tennessine</p>
+          <h3>[294]</h3>
+        </td>
+        <td class="bleu">
+          <h3>118</h3>
+          <h1>Og</h1>
+          <p>Oganesson</p>
+          <h3>[294]</h3>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+      <tr>
+        <td></td>
+        <td></td>
+      <td class="orange-foncer">
+        <h3>57</h3>
+        <h1>La</h1>
+        <p>Lanthanum</p>
+        <h3>138.90547</h3>
+      </td>
+      <td class="orange-foncer">
+        <h3>58</h3>
+        <h1>Ce</h1>
+        <p>Cerium</p>
+        <h3>140.116</h3>
+        </th>
+      <th class="orange-foncer">
+        <h3>59</h3>
+        <h1>Pr</h1>
+        <p>Praseodymium</p>
+        <h3>140.90766</h3>
+      </th>
+      <td class="orange-foncer">
+        <h3>60</h3>
+        <h1>Nd</h1>
+        <p>Neodymium</p>
+        <h3>144.242</h3>
+        </th>
+      <td class="orange-foncer">
+        <h3>61</h3>
+        <h1>Pm</h1>
+        <p>Promethium</p>
+        <h3>[144.91276]</h3>
+        </th>
+      <td class="orange-foncer">
+        <h3>62</h3>
+        <h1>Sm</h1>
+        <p>Samarium</p>
+        <h3>150.38</h3>
+        </th>
+      <td class="orange-foncer">
+        <h3>63</h3>
+        <h1>Eu</h1>
+        <p>Europium</p>
+        <h3>151.964</h3>
+        </th>
+      <td class="orange-foncer">
+        <h3>64</h3>
+        <h1>Gd</h1>
+        <p>Gadolinium</p>
+        <h3>157.25</h3>
+        </th>
+      <td class="orange-foncer">
+        <h3>65</h3>
+        <h1>Tb</h1>
+        <p>Terbium</p>
+        <h3>158.92535</h3>
+        </th>
+      <td class="orange-foncer">
+        <h3>66</h3>
+        <h1>Dy</h1>
+        <p>Dysprosium</p>
+        <h3>162.500</h3>
+        </th>
+      <td class="orange-foncer">
+        <h3>67</h3>
+        <h1>Ho</h1>
+        <p>Holmium</p>
+        <h3>164.93033</h3>
+        </th>
+      <td class="orange-foncer">
+        <h3>68</h3>
+        <h1>Er</h1>
+        <p>Erbium</p>
+        <h3>167.259</h3>
+        </th>
+      <td class="orange-foncer">
+        <h3>69</h3>
+        <h1>Tm</h1>
+        <p>Thulium</p>
+        <h3>168.93422</h3>
+      </td>
+      <td class="orange-foncer">
+        <h3>70</h3>
+        <h1>Yb</h1>
+        <p>Ytterbium</p>
+        <h3>173.04</h3>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="rouge">
+        <h3>89</h3>
+        <h1>Ac</h1>
+        <p>Actinium</p>
+        <h3>[227]</h3>
+      </td>
+      <td class="rouge">
+        <h3>90</h3>
+        <h1>Th</h1>
+        <p>Thorium</p>
+        <h3>232.0377</h3>
+      </td>
+      <td class="rouge">
+        <h3>91</h3>
+        <h1>Pa</h1>
+        <p>Protactinium</p>
+        <h3>231.03588</h3>
+      </td>
+      <td class="rouge">
+        <h3>92</h3>
+        <h1>U</h1>
+        <p>Uranium</p>
+        <h3>238.02891</h3>
+      </td>
+      <td class="rouge">
+        <h3>93</h3>
+        <h1>Np</h1>
+        <p>Neptunium</p>
+        <h3>[237]</h3>
+      </td>
+      <td class="rouge">
+        <h3>94</h3>
+        <h1>Pu</h1>
+        <p>Plutonium</p>
+        <h3>[244]</h3>
+      </td>
+      <td class="rouge">
+        <h3>95</h3>
+        <h1>Am</h1>
+        <p>Americium</p>
+        <h3>[243]</h3>
+      </td>
+      <td class="rouge">
+        <h3>96</h3>
+        <h1>Cm</h1>
+        <p>Curium</p>
+        <h3>[247]</h3>
+      </td>
+      <td class="rouge">
+        <h3>97</h3>
+        <h1>Bk</h1>
+        <p>Berkelium</p>
+        <h3>[247]</h3>
+      </td>
+      <td class="rouge">
+        <h3>98</h3>
+        <h1>Cf</h1>
+        <p>Califomium</p>
+        <h3>[251]</h3>
+      </td>
+      <td class="rouge">
+        <h3>99</h3>
+        <h1>Es</h1>
+        <p>Einstenium</p>
+        <h3>[252]</h3>
+      </td>
+      <td class="rouge">
+        <h3>100</h3>
+        <h1>Fm</h1>
+        <p>Fermium</p>
+        <h3>[257]</h3>
+      </td>
+      <td class="rouge">
+        <h3>101</h3>
+        <h1>Md</h1>
+        <p>Mendelevium</p>
+        <h3>[258]</h3>
+      </td>
+      <td class="rouge">
+        <h3>102</h3>
+        <h1>No</h1>
+        <p>Nobelium</p>
+        <h3>[259]</h3>
+      </td>
+    <td></td>
+    <td></td>
+    </tr>
+      </tbody>
+    </table>
+  
+  </div>
+  
+</body>
+</html>
